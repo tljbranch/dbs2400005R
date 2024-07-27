@@ -1,0 +1,514 @@
+{
+	"info": {
+		"_postman_id": "764bc07d-9061-42e9-a356-ac7ea3d7642f",
+		"name": "dbs2400005R",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28077076"
+	},
+	"item": [
+		{
+			"name": "Success Path",
+			"item": [
+				{
+					"name": "getCustomers SortBy name asc Page 0",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/dbs2400005R/api/customers?page=0&pageSize=20&sortBy=name&sortOrder=asc",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"dbs2400005R",
+								"api",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "pageSize",
+									"value": "20"
+								},
+								{
+									"key": "sortBy",
+									"value": "name"
+								},
+								{
+									"key": "sortOrder",
+									"value": "asc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCustomers SortBy mobileNumber asc Page 0",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/dbs2400005R/api/customers?page=0&pageSize=20&sortBy=mobileNumber&sortOrder=asc",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"dbs2400005R",
+								"api",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "pageSize",
+									"value": "20"
+								},
+								{
+									"key": "sortBy",
+									"value": "mobileNumber"
+								},
+								{
+									"key": "sortOrder",
+									"value": "asc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCustomers SortBy emailAddress asc Page 0",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/dbs2400005R/api/customers?page=0&pageSize=20&sortBy=emailAddress&sortOrder=asc",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"dbs2400005R",
+								"api",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "pageSize",
+									"value": "20"
+								},
+								{
+									"key": "sortBy",
+									"value": "emailAddress"
+								},
+								{
+									"key": "sortOrder",
+									"value": "asc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCustomers SortBy name asc Page 1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/dbs2400005R/api/customers?page=1&pageSize=20&sortBy=name&sortOrder=asc",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"dbs2400005R",
+								"api",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "20"
+								},
+								{
+									"key": "sortBy",
+									"value": "name"
+								},
+								{
+									"key": "sortOrder",
+									"value": "asc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCustomers SortBy name desc Page 0",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/dbs2400005R/api/customers?page=0&pageSize=20&sortBy=name&sortOrder=desc",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"dbs2400005R",
+								"api",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "pageSize",
+									"value": "20"
+								},
+								{
+									"key": "sortBy",
+									"value": "name"
+								},
+								{
+									"key": "sortOrder",
+									"value": "desc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCustomers SortBy name desc Page 1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/dbs2400005R/api/customers?page=1&pageSize=20&sortBy=name&sortOrder=desc",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"dbs2400005R",
+								"api",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "20"
+								},
+								{
+									"key": "sortBy",
+									"value": "name"
+								},
+								{
+									"key": "sortOrder",
+									"value": "desc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCustomers No More Records",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/dbs2400005R/api/customers?page=5&pageSize=20&sortBy=name&sortOrder=desc",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"dbs2400005R",
+								"api",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "5"
+								},
+								{
+									"key": "pageSize",
+									"value": "20"
+								},
+								{
+									"key": "sortBy",
+									"value": "name"
+								},
+								{
+									"key": "sortOrder",
+									"value": "desc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCustomers default without parameter",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/dbs2400005R/api/customers?page=&pageSize=&sortBy=&sortOrder=",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"dbs2400005R",
+								"api",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": ""
+								},
+								{
+									"key": "pageSize",
+									"value": ""
+								},
+								{
+									"key": "sortBy",
+									"value": ""
+								},
+								{
+									"key": "sortOrder",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Error Path",
+			"item": [
+				{
+					"name": "getCustomers SortBy nonexist field",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/dbs2400005R/api/customers?page=0&pageSize=20&sortBy=nonexist&sortOrder=asc",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"dbs2400005R",
+								"api",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "pageSize",
+									"value": "20"
+								},
+								{
+									"key": "sortBy",
+									"value": "nonexist"
+								},
+								{
+									"key": "sortOrder",
+									"value": "asc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCustomers SortOrder wrong input",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/dbs2400005R/api/customers?page=0&pageSize=20&sortBy=name&sortOrder=wrong",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"dbs2400005R",
+								"api",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "pageSize",
+									"value": "20"
+								},
+								{
+									"key": "sortBy",
+									"value": "name"
+								},
+								{
+									"key": "sortOrder",
+									"value": "wrong"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCustomers SortOrder pageSize exceed max limit",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/dbs2400005R/api/customers?page=0&pageSize=21&sortBy=name&sortOrder=asc",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"dbs2400005R",
+								"api",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "pageSize",
+									"value": "21"
+								},
+								{
+									"key": "sortBy",
+									"value": "name"
+								},
+								{
+									"key": "sortOrder",
+									"value": "asc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCustomers SortOrder pageSize negative or zero",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/dbs2400005R/api/customers?page=0&pageSize=0&sortBy=name&sortOrder=asc",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"dbs2400005R",
+								"api",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "pageSize",
+									"value": "0"
+								},
+								{
+									"key": "sortBy",
+									"value": "name"
+								},
+								{
+									"key": "sortOrder",
+									"value": "asc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCustomers SortOrder page negative",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/dbs2400005R/api/customers?page=-1&pageSize=20&sortBy=name&sortOrder=asc",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"dbs2400005R",
+								"api",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "-1"
+								},
+								{
+									"key": "pageSize",
+									"value": "20"
+								},
+								{
+									"key": "sortBy",
+									"value": "name"
+								},
+								{
+									"key": "sortOrder",
+									"value": "asc"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

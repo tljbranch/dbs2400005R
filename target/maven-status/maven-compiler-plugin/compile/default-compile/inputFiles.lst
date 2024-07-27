@@ -1,0 +1,12 @@
+D:\Codes\tests\demo\src\main\java\q1\GetOdd.java
+D:\Codes\tests\demo\src\main\java\q2\constant\Constants.java
+D:\Codes\tests\demo\src\main\java\q2\controller\CustomerController.java
+D:\Codes\tests\demo\src\main\java\q2\dto\CustomerDTO.java
+D:\Codes\tests\demo\src\main\java\q2\entity\CustomerEntity.java
+D:\Codes\tests\demo\src\main\java\q2\Q2Application.java
+D:\Codes\tests\demo\src\main\java\q2\repository\CustomerRepository.java
+D:\Codes\tests\demo\src\main\java\q2\service\CustomerService.java
+D:\Codes\tests\demo\src\main\java\q2\service\impl\CustomerServiceImpl.java
+D:\Codes\tests\demo\src\main\java\q2\utility\CommonUtils.java
+D:\Codes\tests\demo\src\main\java\q2\validator\CustomerEntityFieldsConstraint.java
+D:\Codes\tests\demo\src\main\java\q2\validator\CustomerEntityFieldsConstraintValidator.java

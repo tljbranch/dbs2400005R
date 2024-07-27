@@ -36,7 +36,7 @@ Ensure you have the following software installed:
 Open Postman->Menu->File->Import  
   Testing script can be found in /src/test/resources/dbs2400005R.postman_collection.json
 3. **Testing Different Scenario**  
-  8 Success Path and 5 Error Path scenario had been loaded  
+   Eight success path scenarios and five error path scenarios have been provided.
   _Note: Pagination starts from Page-0_
 4. **Alternative**  
 The instructions assume that `localhost` and port `8080` are used. Alternatively, you can modify the URL and test it with your preferred tool.
